@@ -1,0 +1,225 @@
+﻿/* USTAWIENIA */
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/*--------------------------------------------------------------------*/
+/* width */
+::-webkit-scrollbar {
+	width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: #f1f1f1;
+}
+   
+/* Handle */									/* SCROLLBAR */
+::-webkit-scrollbar-thumb {
+	background: #888;
+	border-radius: 5px;
+}
+  
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: #555;
+}
+/*--------------------------------------------------------------------*/
+
+/* USTAWIENIA GŁÓWNE */
+body {
+	background-image: url(../img/background.jpg);
+	height: 100%;
+	margin: 0;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	font-weight: bold;
+}
+
+/* USTAWIENIA LOGA */
+.divisionrppl img {
+	float: left;
+	width: 250px;
+	height: auto;
+	margin-top: 26px;
+	margin-left: 355px;
+}
+
+/* USTAWIENIA PUDEŁKA */
+.main {
+	background: linear-gradient(to right, #8e00ff 0%, #d900ff 40%, #d900ff 60%, #8e00ff 100%);
+	/* background-color: #21184f; */
+	background-size: cover;
+	height: 90px;
+	width: 100%;
+}
+
+/* USTAWIENIA PUDEŁKA MENU */
+ul {
+	float: right;
+	list-style-type: none;
+	margin-top: 22px;
+	margin-right: 375px;
+}
+
+/* USTAWIENIA MENU */
+ul li {
+	display: inline-block;
+	margin: 10px;
+}
+
+/* USTAWIENIA TEXTU MENU */
+ul li a {
+	text-decoration: none;
+	color: white;
+	padding: 10px 20px;
+	border: 0px solid white;
+	border-radius: 3.5%;
+	transition: 0.6s ease;
+}
+
+/* USTAWIENIA MENU NAJECHANEGO */
+ul li a:hover {
+	border: 0px solid #bb00dc;
+	background-color: #bb00dc;
+	color: #0f0f0f;
+	transition: 0.8s ease;
+}
+
+/* USTAWIENIA AKTYWNEGO MENU */
+ul li.active a{
+	border: 0px solid #bb00dc;
+	background-color: #bb00dc;
+	color: #0f0f0f;
+}
+
+/* STRONA GŁÓWNA */
+
+/* USTAWIENIA GŁÓWNEJ SEKCJI STRONY */
+.wapper {
+	min-height: 100%;
+}
+
+/* USTAWIENIA SEKCJI */
+.section {
+	display: block;
+	width: 100%;
+	height: 510px;
+	transition: 1.2s ease;
+}
+
+/* USTAWIENIA PODEŁKA OD TYTUŁU I OPISU */
+.box {
+	position: absolute;
+	border: 0px solid white;
+	box-shadow: black 0px 0px 10px;
+	background: linear-gradient(45deg, #39006a 0%, rgba(15, 15, 15, 0.85) 30%, rgba(15, 15, 15, 0.85) 70%, #5d006d 100%);
+	border-radius: 2%;
+	width: 450px;
+	height: 410px;
+	text-align: center;
+	color: #fff;
+}
+
+/* USTAWIENIA TYTUŁU */
+.box-top {
+	padding: 35px 0px 25px 0px;
+	font-size: 3.5vh;
+}
+
+/* USTAWIENIA OPISU */
+.box-bottom {
+	padding: 0px 0px 25px 0px;
+	max-width: 445px;
+	line-height: 1.45;
+	color: rgb(236, 236, 236);
+	font-weight: lighter;
+}
+
+/* FOOTER START */
+.footer {
+	height: 50px;
+	margin-top: 25px;
+ 	width: 100%;
+  	background-color: rgba(37, 37, 37, 0.955);
+}
+
+.footer-box {
+	padding: 17px;
+	height: 10px;
+	color: rgb(121, 121, 121);
+	text-align: center;
+	font-weight: lighter;
+}
+/* FOOTER KONIEC */
+
+
+					/* DODAWANIE NOWYCH SEKCJI */
+
+
+/* ORGANIZACJE START */
+#section-organizacje {
+	margin-top: 35px;
+}
+
+#organizacje img {
+	
+	position: absolute;
+	border-radius: 1%;
+	box-shadow: black 0px 0px 10px;
+	margin-left: 290px;								/*  zdj lewa */
+	margin-top: 25px;								/*  zdj lewa */
+	width: 800px;
+	height: auto;
+}
+
+#box-organizacje{
+	margin-top: 40px;								/*  napis prawa */
+	margin-left: 1110px;								/*  napis prawa */				/*  napis lewa */
+}
+/* ORGANIZACJE KONIEC */
+
+/* FRAKCJE START */
+#section-frakcje {
+	margin-top: 25px;								/*  miejsce między poprzednią sekcją */
+}
+
+#frakcje img {
+	position: absolute;
+	border-radius: 1%;
+	box-shadow: black 0px 0px 10px;
+	margin-left: 760px;								/*  zdj prawa */
+	margin-top: 25px;								/*  zdj prawa */
+	width: 800px;
+	height: auto;
+}
+
+#box-frakcje {
+	margin-top: 40px;								/*  napis lewa */
+	margin-left: 290px;								/*  napis lewa */
+}
+/* FRAKCJE KONIEC */
+
+/* FIRMY START */
+#section-firmy {
+	margin-top: 25px;								/*  miejsce między poprzednią sekcją */
+}
+
+#firmy img {
+	position: absolute;
+	border-radius: 1%;
+	box-shadow: black 0px 0px 10px;
+	margin-left: 290px;								/*  zdj lewa */
+	margin-top: 25px;								/*  zdj lewa */
+	width: 800px;
+	height: auto;
+}
+
+#box-firmy{
+	margin-top: 40px;								/*  napis prawa */
+	margin-left: 1110px;								/*  napis prawa */								/*  napis lewa */
+}
+/* ORGANIZACJE KONIEC */

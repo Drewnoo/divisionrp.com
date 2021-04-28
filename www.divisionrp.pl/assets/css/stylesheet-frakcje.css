@@ -1,0 +1,365 @@
+﻿/* USTAWIENIA */
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/*--------------------------------------------------------------------*/
+/* width */
+::-webkit-scrollbar {
+	width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: #f1f1f1;
+}
+   
+/* Handle */									/* SCROLLBAR */
+::-webkit-scrollbar-thumb {
+	background: #888;
+	border-radius: 5px;
+}
+  
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: #555;
+}
+/*--------------------------------------------------------------------*/
+
+/* USTAWIENIA GŁÓWNE */
+body {
+	background-image: url(../img/background.jpg);
+	height: 100%;
+	margin: 0;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	font-weight: bold;
+}
+
+/* USTAWIENIA LOGA */
+.divisionrppl img {
+	float: left;
+	width: 250px;
+	height: auto;
+	margin-top: 26px;
+	margin-left: 355px;
+}
+
+/* USTAWIENIA PUDEŁKA */
+.main {
+	background: linear-gradient(to right, #8e00ff 0%, #d900ff 40%, #d900ff 60%, #8e00ff 100%);
+	/* background-color: #21184f; */
+	background-size: cover;
+	height: 90px;
+	width: 100%;
+}
+
+/* USTAWIENIA PUDEŁKA MENU */
+ul {
+	float: right;
+	list-style-type: none;
+	margin-top: 22px;
+	margin-right: 375px;
+}
+
+/* USTAWIENIA MENU */
+ul li {
+	display: inline-block;
+	margin: 10px;
+}
+
+/* USTAWIENIA TEXTU MENU */
+ul li a {
+	text-decoration: none;
+	color: white;
+	padding: 10px 20px;
+	border: 0px solid white;
+	border-radius: 3.5%;
+	transition: 0.6s ease;
+}
+
+/* USTAWIENIA MENU NAJECHANEGO */
+ul li a:hover {
+	border: 0px solid #bb00dc;
+	background-color: #bb00dc;
+	color: #0f0f0f;
+	transition: 0.8s ease;
+}
+
+/* USTAWIENIA AKTYWNEGO MENU */
+ul li.active a{
+	border: 0px solid #bb00dc;
+	background-color: #bb00dc;
+	color: #0f0f0f;
+}
+
+/* STRONA GŁÓWNA */
+
+/* USTAWIENIA GŁÓWNEJ SEKCJI STRONY */
+.wapper {
+    display: inline-flex;
+    min-height: 100%;
+    
+}
+
+/* USTAWIENIA SEKCJI */
+.section {
+	width: 525px;
+	height: 610px;
+    transition: 1.2s ease;
+}
+
+/* USTAWIENIA PODEŁKA OD TYTUŁU I OPISU */
+.box {
+	position: absolute;
+	border: 0px solid;
+	box-shadow: black 0px 0px 10px;
+	background: linear-gradient(45deg, #39006a 0%, rgba(15, 15, 15, 0.85) 30%, rgba(15, 15, 15, 0.85) 70%, #5d006d 100%);
+	border-radius: 2%;
+	width: 500px;
+	height: 65px;
+	text-align: center;
+	color: #fff;
+}
+
+/* USTAWIENIA TYTUŁU */
+.box-top {
+    margin-left: -250px;
+    margin-top: 4px;
+	padding: 15px 0px 15px 0px;
+    font-size: 2.5vh;
+    text-align: left;
+}
+
+/* USTAWIENIA OPISU */
+.box-bottom {
+    display: block;
+    text-decoration: none;
+    border: 0px solid;
+    border-radius: 5%;
+    padding: 15px 0px 15px 0px;
+    margin-top: -54px;
+    margin-left: 360px;
+    max-width: 120px;
+    height: auto;
+    color: #fff;
+}
+
+.box-bottom:hover {
+    background-color: #bb00dc;
+    color: #000;
+    transition: 0.4s ease;
+}
+
+/* FOOTER START */
+.footer {
+	height: 50px;
+    margin-top: 25px;
+ 	width: 100%;
+  	background-color: rgba(37, 37, 37, 0.955);
+}
+
+.footer-box {
+	padding: 17px;
+	height: 10px;
+	color: rgb(121, 121, 121);
+	text-align: center;
+	font-weight: lighter;
+}
+/* FOOTER KONIEC */
+
+
+					/* DODAWANIE NOWYCH SEKCJI */
+
+
+/* LSFD START */
+#section-lsfd {
+    margin-top: 35px;
+    margin-left: 45px;
+}
+
+#lsfd img {
+	position: absolute;
+	border-radius: 1%;
+	box-shadow: black 0px 0px 10px;
+	margin-left: 13px;
+	margin-top: 13px;
+	width: 500px;
+	height: auto;
+}
+
+#box-lsfd{
+	margin-top: 533px;
+    margin-left: 13px;
+}
+
+#box-lsfd-top {
+    margin-left: 35px;
+}
+
+/* LSFD KONIEC */
+
+/* LSCM START */
+#section-lscm {
+    margin-top: 35px; /* -610px = srodek | prawa */
+    margin-left: 45px; /* 690px = srodek*/
+}
+
+#lscm img {
+	position: absolute;
+	border-radius: 1%;
+	box-shadow: black 0px 0px 10px;
+	margin-left: 13px;
+	margin-top: 13px;
+	width: 500px;
+	height: auto;
+}
+
+#box-lscm{
+	margin-top: 533px;
+    margin-left: 13px;
+}
+
+#box-lscm-top {
+    margin-left: 35px;
+}
+
+/* LSCM KONIEC */
+
+/* EMS START */
+#section-ems {
+    margin-top: -610px;
+    margin-left: 690px;
+}
+
+#ems img {
+	position: absolute;
+	border-radius: 1%;
+	box-shadow: black 0px 0px 10px;
+	margin-left: 13px;
+	margin-top: 13px;
+	width: 500px;
+	height: auto;
+}
+
+#box-ems{
+	margin-top: 533px;
+    margin-left: 13px;
+}
+
+#box-ems-top {
+    margin-left: 35px;
+}
+
+/* EMS KONIEC */
+
+/* SAST START */
+#section-lspd {
+    margin-top: -610px;
+    margin-left: 1340px;
+}
+
+#lspd img {
+	position: absolute;
+	border-radius: 1%;
+	box-shadow: black 0px 0px 10px;
+	margin-left: 13px;
+	margin-top: 13px;
+	width: 500px;
+	height: auto;
+}
+
+#box-lspd{
+	margin-top: 533px;
+    margin-left: 13px;
+}
+
+#box-lspd-top {
+    margin-left: 35px;
+}
+
+/* SAST KONIEC */
+
+/* BCSO START */
+#section-bcso {
+    margin-top: 35px;
+    margin-left: 690px;
+}
+
+#bcso img {
+	position: absolute;
+	border-radius: 1%;
+	box-shadow: black 0px 0px 10px;
+	margin-left: 13px;
+	margin-top: 13px;
+	width: 500px;
+	height: auto;
+}
+
+#box-bcso{
+	margin-top: 533px;
+    margin-left: 13px;
+}
+
+#box-bcso-top {
+    margin-left: 35px;
+}
+
+/* BCSO KONIEC */
+
+/* DOJ START */
+#section-lsl {
+    margin-top: 35px;
+    margin-left: 690px; /* 1340px = prawa strona*/
+}
+
+#lsl img {
+	position: absolute;
+	border-radius: 1%;
+	box-shadow: black 0px 0px 10px;
+	margin-left: 13px;
+	margin-top: 13px;
+	width: 500px;
+	height: auto;
+}
+
+#box-lsl{
+	margin-top: 533px;
+    margin-left: 13px;
+}
+
+#box-lsl-top {
+    margin-left: 35px;
+}
+
+/* DOJ KONIEC */
+
+/* ORGANIZACJE START */
+#section-organizacje {
+    margin-top: 35px;
+    margin-left: 690px;
+}
+
+#organizacje img {
+	position: absolute;
+	border-radius: 1%;
+	box-shadow: black 0px 0px 10px;
+	margin-left: 13px;
+	margin-top: 13px;
+	width: 500px;
+	height: auto;
+}
+
+#box-organizacje{
+	margin-top: 533px;
+    margin-left: 13px;
+}
+
+#box-organizacje-top {
+    margin-left: 35px;
+}
+
+/* ORGANIZACJE KONIEC */
